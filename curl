@@ -1,11 +1,11 @@
-curl -X POST -H "Authorization: key=xxxxxxxxxxxxxxxx" -H "Content-Type: application/json" -d '{
+curl -X POST -H "Authorization: key=xxxxxxxxxxxxxx" -H "Content-Type: application/json" -d '{
   "notification": {
     "title": "Portugal vs. Denmark",
     "body": "5 to 1",
     "icon": "http://localhost:3000/firebase-logo.png",
     "click_action": "http://localhost:3000"
   },
-  "to": "xxxxxxxxxxxxxxxx"
+  "to": "dESeTiIP9jY:APA91bFzBbfU0U3MzBI-ZZkNs6-pf6J8MF6Vc8MSxH3WFsdt4kMqFC9ttJ4dLG02i1aXwQJdnef9-E3W4mNYi3uw6YsTb4xsNknLZsg1un4XMOJ_wizCESqB7LeNITs2GIezPYhVXr8w"
 }' "https://fcm.googleapis.com/fcm/send"
 
 
